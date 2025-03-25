@@ -22,7 +22,7 @@ public class StudentManagement {
                     System.out.println(student);
                     break;
                 case 2:
-                    Studentbusiness.studentadd(scanner);
+                    Studentbusiness.Studentadd(scanner);
                     break;
                 case 3:
 
