@@ -53,13 +53,13 @@ public class Student {
     public void inputData(Scanner scanner) {
         System.out.println("nhập vào thông tin sinh viên:");
         System.out.println("Mã sinh viên: ");
-        String StudentId = scanner.nextLine();
+        this.StudentId = scanner.nextLine();
         System.out.println("Tên sinh viên: ");
-        String StudentName = scanner.nextLine();
+        this.StudentName = scanner.nextLine();
         System.out.println("tuổi sinh viên :");
-        int age = scanner.nextInt();
+        this.age = scanner.nextInt();
         System.out.println("nhập điểm trung bình của sinh viên:");
-        float avg = scanner.nextFloat();
+        this.avg = scanner.nextFloat();
     }
 
     @Override
