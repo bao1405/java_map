@@ -25,10 +25,9 @@ public class StudentManagement {
                     Studentbusiness.Studentadd(scanner);
                     break;
                 case 3:
-
+                    Studentbusiness.StudentDelete(scanner);
                     break;
                 case 4:
-                    Studentbusiness.StudentDelete(scanner);
                     break;
                 case 5:
                     break;
